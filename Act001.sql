@@ -21,7 +21,10 @@ CREATE TABLE books (
   );
 
 CREATE TABLE books_authors (
-
+  Book_Id INT,
+  Author_Id INT,
+  List_of_Books VARCHAR(100),
+  List_of_Authors VARCHAR(100)
   );
 
 
